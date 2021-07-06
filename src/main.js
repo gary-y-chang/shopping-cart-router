@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
-import App from './app-complete/App.vue';
-import router from './app-complete/router';
-import store from './app-complete/store';
+import App from './app/App.vue';
+import router from './app/router';
+import store from './app/store';
 
 createApp(App).use(router).use(store).mount('#app');
 console.log('---> ' +process.env.VUE_APP_API_URL);
